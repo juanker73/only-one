@@ -1,0 +1,353 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+body {
+  background-color: rgb(4, 15, 2);
+  background-image: url(https://images2.alphacoders.com/633/633157.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Londrina Solid", cursive;
+  font-family: "Slackey", cursive;
+}
+
+header {
+  background-color: rgba(43, 0, 43, 0.658);
+  margin-bottom: 10%;
+  color: aqua;
+  padding-bottom: 5px;
+}
+
+header:hover {
+  box-shadow: fuchsia 1px 1px 160px;
+  border-bottom: solid fuchsia 1px;
+}
+
+.pin {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 8px white;
+  box-shadow: 1px 1px 60px white;
+  margin: auto 10px;
+}
+
+.logo {
+  width: 300px;
+  height: 120px;
+}
+
+.title {
+  display: flex;
+  margin: auto 34%;
+  padding-top: 5%;
+  padding-bottom: 0%;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto 5%;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li a {
+  color: cyan;
+  text-decoration: none;
+  text-transform: lowercase;
+  border-radius: 10px;
+  border: solid 2px fuchsia;
+  padding: 5px;
+  background-color: rgba(0, 255, 255, 0.491);
+  text-shadow: black 1px 1px 12px;
+}
+
+li a:hover {
+  background-color: cyan;
+  color: fuchsia;
+  text-decoration: none;
+  box-shadow: 1px 1px 30px cyan;
+  border-radius: 10px;
+  border: solid 4px lightblue;
+  padding: 5px;
+  text-shadow: black 1px 1px 12px;
+}
+
+.sinopsis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(0, 255, 255, 0.176);
+  border-radius: 20px;
+  margin: auto 75px;
+  padding: 10px;
+  margin-bottom: 1%;
+  color: cyan;
+  text-shadow: black 1px 1px 1px;
+  font-size: small;
+}
+
+.sinopsis:hover {
+  background-color: rgba(43, 0, 43, 0.658);
+  box-shadow: 1px 1px 160px fuchsia;
+  border: solid fuchsia 1px;
+}
+
+.text {
+  font-family: "Londrina Solid", cursive;
+  font-family: "Slackey", cursive;
+  width: 50%;
+  margin: 120px;
+}
+
+.banner {
+  margin-top: 80px;
+  height: 315px;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 8px white;
+  box-shadow: 1px 1px 20px cyan;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+  color: cyan;
+  text-shadow: 1px 1px 1px black;
+}
+
+.grid-contain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 0px;
+  padding: 0%;
+  margin-bottom: 10%;
+}
+
+.grid-item {
+  text-transform: capitalize;
+  justify-content: center;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin: 15px;
+  border: solid white 8px;
+  border-radius: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  text-shadow: black 1px 1px 1px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 255, 255, 0.317);
+}
+
+.grid-item:hover {
+  border: rgb(136, 248, 248) solid 6px;
+  box-shadow: 1px 1px 60px cyan;
+  background-color: cyan;
+}
+
+.grid-item img {
+  width: 150px;
+  height: 150px;
+  box-shadow: 1px 1px 20px white;
+  border-radius: 5px;
+  padding-top: 0px;
+  margin: auto 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.suscribeme {
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin-bottom: 10%;
+  color: cyan;
+  text-shadow: black 1px 1px 3px;
+  background-color: rgba(0, 255, 255, 0.201);
+}
+
+.suscribeme:hover {
+  box-shadow: 1px 1px 120px white;
+  border: 1px solid white;
+}
+
+.hbo {
+  width: 250px;
+  height: 160px;
+  margin: 0px;
+  border-radius: 20px;
+  border: solid 5px white;
+}
+
+.hbo:hover {
+  box-shadow: white 1px 1px 80px;
+  border: solid cyan 8px;
+}
+
+footer {
+  background-color: rgba(43, 0, 43, 0.658);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  color: fuchsia;
+  text-shadow: 1px 1px 1px black;
+  font-size: small;
+}
+
+footer:hover {
+  box-shadow: 1px 1px 160px fuchsia;
+  border-top: solid fuchsia 1px;
+}
+
+.info {
+  margin-right: 45%;
+  padding: 20px;
+  margin-left: 50px;
+  text-shadow: 1px 1px 1px blue;
+}
+
+.contacts {
+  margin-left: 0%;
+  vertical-align: auto 5%;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 1px blue;
+}
+
+.logos {
+  width: 30px;
+  border-radius: 50%;
+  margin: 10px;
+  border: solid 2px fuchsia;
+  box-shadow: fuchsia 1px 1px 15px;
+}
+
+.logos:hover {
+  border: solid 2px white;
+  box-shadow: white 1px 1px 15px;
+}
+
+.boton-volver img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: fuchsia 4px solid;
+  transform: rotate(-90deg);
+  position: fixed;
+  bottom: 110px;
+  right: 20px;
+}
+
+.boton-volver img:hover{
+  box-shadow: 1px 1px 28px fuchsia;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+  
+  section {
+    display: block;
+    padding: 0px;
+    text-align: center;
+  }
+
+  header{
+    justify-content: center;
+  }
+
+  .title {
+    display: block;
+    padding: 0px;
+    margin: auto 15px;
+
+  }
+
+  .logo {
+    margin: auto 0;
+  }
+
+  .pin {
+    margin: auto 90px;
+  }
+
+  .nav-bar ul {
+    display: block;
+    text-align: center;
+  }
+
+  li {
+    margin: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .sinopsis {
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .sinopsis .text {
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .banner {
+    margin: auto 20px;
+    margin-top: 20px;
+    padding: 0px;
+  }
+
+  .grid-contain {
+    justify-content: c;
+    margin: 0px;
+  }
+
+  .grid-item {
+    margin: auto 30%;
+    margin-top: 10px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  img .hbo {
+    margin: auto 0px;
+  }
+
+  footer{
+    font-size: x-small;
+    justify-content: center;
+  }
+
+  .info {
+    justify-content: center;
+    text-align: center;
+    margin: auto 5%;
+    padding: 0px;
+  }
+
+  .contacts {
+    margin: auto 20%;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+}
