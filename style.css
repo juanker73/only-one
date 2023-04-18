@@ -17,10 +17,13 @@ body {
 }
 
 header {
+  
   background-color: rgba(43, 0, 43, 0.658);
   margin-bottom: 10%;
   color: aqua;
   padding-bottom: 5px;
+  text-align: center;
+  justify-content: center;
 }
 
 header:hover {
@@ -28,24 +31,30 @@ header:hover {
   border-bottom: solid fuchsia 1px;
 }
 
+.logo-container {
+  margin: 0px;
+  width: 80%;
+}
+
+.pin-container{
+  margin: 0px;
+  width: 10%;
+  
+}
+
 .logo {
   width: 400px;
   height: 180px;
-  margin: 0px;
+  margin:0px;
+  
 }
 
 .pin {
   width: 150px;
   height: 150px;
-  margin: 0px;
+  margin:0px;
   border-radius: 50%;
   border: solid 8px white;
-}
-
-.title {
-  display: flex;
-  padding: 0px;
-  margin: auto 30%;
 }
 
 .nav-bar ul {
@@ -257,8 +266,8 @@ footer:hover {
   border-radius: 50%;
   transform: rotate(-90deg);
   position: fixed;
-  bottom: 110px;
-  right: 20px;
+  bottom: 140px;
+  right: 80px;
 }
 
 .boton-volver img:hover {
@@ -266,67 +275,96 @@ footer:hover {
   border: fuchsia 4px solid;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 800px) {
-  
-  header {
+@media (max-width: 480px){
+  section {
     display: block;
-    align-items: center;
-    justify-content: center;
-    margin: 0px;
+    padding: 0px;
     text-align: center;
   }
-  .title{
-    margin: auto 15%;
+
+  header {
+    justify-content: center;
+  }
+
+  .title {
+    display: block;
+    padding: 0px;
+    margin: auto 20%;
   }
 
   .logo {
-    width: 220px;
-    height: 100px;
-    padding: 0px;
-    margin: auto 0px;
+    width: 320px;
+    height: 160px;
+    margin: auto 0;
   }
 
   .pin {
-    width: 100px;
-    height: 100px;
-    margin: auto 0px;
+    width: 200px;
+    height: 200px;
+    margin: auto 50px;
   }
 
-  nav ul li {
+  .nav-bar ul {
     display: block;
-    margin-bottom: 30px;
     text-align: center;
   }
 
-  nav {
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 50px;
+  li {
+    margin: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .sinopsis {
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .sinopsis .text {
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    width: 100%;
   }
 
   .banner {
     margin: auto 20px;
-    width: 190px;
-    height: 300px;
+    margin-top: 20px;
+    padding: 0px;
   }
 
-  .sinopsis {
-    border: none;
-    display: block;
-    background-color: none;
-    align-items: center;
-    margin: auto 5px;
+  .grid-contain {
+    justify-content: c;
+    margin: 0px;
   }
 
-  .info {
-    display: block;
+  .grid-item {
+    margin: auto 30%;
+    margin-top: 10px;
+    padding: 0px;
     text-align: center;
+  }
+
+  img .hbo {
     margin: auto 0px;
   }
 
+  footer {
+    font-size: large;
+    justify-content: center;
+  }
+
+  .info {
+    justify-content: center;
+    text-align: center;
+    margin: auto 5%;
+    padding: 0px;
+  }
+
   .contacts {
-    margin: auto 33%;
-    align-items: center;
-    padding: 10px;
+    margin: auto 20%;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
   }
 }
