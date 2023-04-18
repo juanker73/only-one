@@ -53,6 +53,7 @@ header:hover {
   margin: 0px;
   border-radius: 50%;
   border: solid 8px white;
+  box-shadow: 1px 1px 60px white;
 }
 
 .titulos {
@@ -262,12 +263,12 @@ footer:hover {
   border-radius: 50%;
   margin: 10px;
   border: solid 2px fuchsia;
-  box-shadow: fuchsia 1px 1px 15px;
+  box-shadow: fuchsia 1px 1px 25px;
 }
 
 .logos:hover {
   border: solid 2px white;
-  box-shadow: white 1px 1px 15px;
+  box-shadow: white 1px 1px 25px;
 }
 
 .boton-volver img {
@@ -278,6 +279,7 @@ footer:hover {
   position: fixed;
   bottom: 140px;
   right: 80px;
+  box-shadow: 1px 1px 40px white;
 }
 
 .boton-volver img:hover {
@@ -285,7 +287,7 @@ footer:hover {
   border: fuchsia 4px solid;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 680px) {
 
   header {
     justify-content: center;
@@ -369,7 +371,6 @@ footer:hover {
 
   .contacts {
     margin: auto ;
-    padding: ;
     justify-content: center;
     text-align: center;
   }
