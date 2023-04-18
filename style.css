@@ -17,13 +17,15 @@ body {
 }
 
 header {
-  
   background-color: rgba(43, 0, 43, 0.658);
   margin-bottom: 10%;
   color: aqua;
   padding-bottom: 5px;
   text-align: center;
   justify-content: center;
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 header:hover {
@@ -33,31 +35,32 @@ header:hover {
 
 .logo-container {
   margin: 0px;
-  width: 80%;
 }
 
-.pin-container{
+.pin-container {
   margin: 0px;
-  width: 10%;
-  
 }
 
 .logo {
   width: 400px;
   height: 180px;
-  margin:0px;
-  
+  margin: 0px;
 }
 
 .pin {
   width: 150px;
   height: 150px;
-  margin:0px;
+  margin: 0px;
   border-radius: 50%;
   border: solid 8px white;
 }
 
-.nav-bar ul {
+.titulos {
+  display: flex;
+  margin: auto 30%;
+}
+
+.pilot {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -99,14 +102,17 @@ li a:hover {
   flex-wrap: wrap;
   background-color: rgba(0, 255, 255, 0.176);
   border-radius: 20px;
-  margin: auto 0px;
-  padding: 0px;
   margin-bottom: 1%;
   color: cyan;
   text-shadow: black 1px 1px 1px;
   font-size: large;
   text-align: center;
+  padding: 30px;
+  margin: auto 50px;
+  display: flex;
 }
+
+
 
 .sinopsis:hover {
   background-color: rgba(43, 0, 43, 0.658);
@@ -114,28 +120,32 @@ li a:hover {
   border: solid fuchsia 1px;
 }
 
-.text {
-  font-family: "Londrina Solid", cursive;
-  font-family: "Slackey", cursive;
+.texto{
+  text-align: center;
   width: 50%;
-  margin: 20px;
-  padding: 50px;
 }
 
 .banner {
-  margin: auto 200px;
-  margin-top: 60px;
-  margin-bottom: 50px;
-  height: 400px;
-  width: 250px;
+  justify-content: center;
+  width: 300px;
   border-radius: 20px;
   border: solid 8px white;
   box-shadow: 1px 1px 20px cyan;
+  margin: auto 50%;
+  margin-top: 15%;
+}
+
+.sinopsis h2 {
+  text-align: center;
+  margin: auto 0%;
+  padding:30px;
+  color: cyan;
+  text-shadow: 1px 1px 1px black;
 }
 
 h2 {
   text-align: center;
-  padding: 15px;
+  padding: 0px;
   color: cyan;
   text-shadow: 1px 1px 1px black;
 }
@@ -275,52 +285,47 @@ footer:hover {
   border: fuchsia 4px solid;
 }
 
-@media (max-width: 480px){
-  section {
-    display: block;
-    padding: 0px;
-    text-align: center;
-  }
+@media (max-width: 480px) {
 
   header {
     justify-content: center;
   }
 
-  .title {
+  .titulos {
     display: block;
     padding: 0px;
-    margin: auto 20%;
+    margin: 0px;
   }
 
   .logo {
-    width: 320px;
-    height: 160px;
-    margin: auto 0;
+    width: 250px;
+    height: 100px;
+    margin: auto 3%;
   }
 
   .pin {
-    width: 200px;
-    height: 200px;
-    margin: auto 50px;
+    width: 150px;
+    height: 150px;
+    margin: auto 5%;
   }
 
-  .nav-bar ul {
+  .pilot {
     display: block;
     text-align: center;
   }
 
   li {
-    margin: 25px;
+    margin-top: 35px;
     margin-left: 10%;
     margin-right: 10%;
   }
 
   .sinopsis {
-    justify-content: center;
+    display: block;
     margin: 0px;
   }
 
-  .sinopsis .text {
+  .texto {
     padding: 0px;
     margin: 0px;
     justify-content: center;
@@ -328,7 +333,8 @@ footer:hover {
   }
 
   .banner {
-    margin: auto 20px;
+    width: 200px;
+    margin: auto 0px;
     margin-top: 20px;
     padding: 0px;
   }
@@ -357,13 +363,13 @@ footer:hover {
   .info {
     justify-content: center;
     text-align: center;
-    margin: auto 5%;
+    margin: auto ;
     padding: 0px;
   }
 
   .contacts {
-    margin: auto 20%;
-    padding: 20px;
+    margin: auto ;
+    padding: ;
     justify-content: center;
     text-align: center;
   }
