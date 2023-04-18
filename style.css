@@ -28,25 +28,24 @@ header:hover {
   border-bottom: solid fuchsia 1px;
 }
 
-.title {
-  display:flex;
-  padding: 0px;
-  margin: auto 30%;
-}
-
 .logo {
   width: 400px;
   height: 180px;
-  margin:0px;
-  
+  margin: 0px;
 }
 
 .pin {
   width: 150px;
   height: 150px;
-  margin:0px;
+  margin: 0px;
   border-radius: 50%;
   border: solid 8px white;
+}
+
+.title {
+  display: flex;
+  padding: 0px;
+  margin: auto 30%;
 }
 
 .nav-bar ul {
@@ -109,6 +108,7 @@ li a:hover {
 .text {
   font-family: "Londrina Solid", cursive;
   font-family: "Slackey", cursive;
+  width: 50%;
   margin: 20px;
   padding: 50px;
 }
@@ -266,92 +266,67 @@ footer:hover {
   border: fuchsia 4px solid;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 700px) {
-
-
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+  
   header {
-    justify-content: center;
-  }
-
-  .title {
     display: block;
-    padding: 0px;
-    margin: auto 20%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+  }
+  .title{
+    margin: auto 15%;
   }
 
   .logo {
-    width: 320px;
-    height: 160px;
-    margin: auto 0;
+    width: 220px;
+    height: 100px;
+    padding: 0px;
+    margin: auto 0px;
   }
 
   .pin {
-    width: 200px;
-    height: 200px;
-    margin: auto 50px;
+    width: 100px;
+    height: 100px;
+    margin: auto 0px;
   }
 
-  .nav-bar ul {
+  nav ul li {
     display: block;
+    margin-bottom: 30px;
     text-align: center;
   }
 
-  li {
-    margin: 25px;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .sinopsis {
-    justify-content: center;
-    margin: 0px;
-  }
-
-  .sinopsis .text {
-    padding: 0px;
-    margin: 0px;
-    justify-content: center;
-    width: 100%;
+  nav {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
   }
 
   .banner {
     margin: auto 20px;
-    margin-top: 20px;
-    padding: 0px;
+    width: 190px;
+    height: 300px;
   }
 
-  .grid-contain {
-    justify-content: c;
-    margin: 0px;
-  }
-
-  .grid-item {
-    margin: auto 30%;
-    margin-top: 10px;
-    padding: 0px;
-    text-align: center;
-  }
-
-  img .hbo {
-    margin: auto 0px;
-  }
-
-  footer {
-    font-size: large;
-    justify-content: center;
+  .sinopsis {
+    border: none;
+    display: block;
+    background-color: none;
+    align-items: center;
+    margin: auto 5px;
   }
 
   .info {
-    justify-content: center;
+    display: block;
     text-align: center;
-    margin: auto 5%;
-    padding: 0px;
+    margin: auto 0px;
   }
 
   .contacts {
-    margin: auto 20%;
-    padding: 20px;
-    justify-content: center;
-    text-align: center;
+    margin: auto 33%;
+    align-items: center;
+    padding: 10px;
   }
 }
