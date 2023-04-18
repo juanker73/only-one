@@ -29,8 +29,8 @@ header:hover {
 }
 
 .pin {
-  width: 120px;
-  height: 120px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   border: solid 8px white;
   box-shadow: 1px 1px 60px white;
@@ -38,13 +38,13 @@ header:hover {
 }
 
 .logo {
-  width: 300px;
-  height: 120px;
+  width: 600px;
+  height: 240px;
 }
 
 .title {
   display: flex;
-  margin: auto 34%;
+  margin: auto 30%;
   padding-top: 5%;
   padding-bottom: 0%;
 }
@@ -71,6 +71,7 @@ li a {
   padding: 5px;
   background-color: rgba(0, 255, 255, 0.491);
   text-shadow: black 1px 1px 12px;
+  font-size: x-large;
 }
 
 li a:hover {
@@ -95,7 +96,7 @@ li a:hover {
   margin-bottom: 1%;
   color: cyan;
   text-shadow: black 1px 1px 1px;
-  font-size: small;
+  font-size: large;
 }
 
 .sinopsis:hover {
@@ -105,6 +106,7 @@ li a:hover {
 }
 
 .text {
+  
   font-family: "Londrina Solid", cursive;
   font-family: "Slackey", cursive;
   width: 50%;
@@ -113,8 +115,8 @@ li a:hover {
 
 .banner {
   margin-top: 80px;
-  height: 315px;
-  width: 200px;
+  height: 400px;
+  width: 250px;
   border-radius: 20px;
   border: solid 8px white;
   box-shadow: 1px 1px 20px cyan;
@@ -141,14 +143,14 @@ h2 {
   text-transform: capitalize;
   justify-content: center;
   width: 200px;
-  height: 300px;
+  height: 320px;
   padding: 10px;
   padding-bottom: 20px;
   margin: 15px;
   border: solid white 8px;
   border-radius: 15px;
   font-family: "Courier New", Courier, monospace;
-  font-size: small;
+  font-size: medium;
   text-shadow: black 1px 1px 1px;
   text-align: center;
   color: white;
@@ -173,6 +175,7 @@ h2 {
 }
 
 .suscribeme {
+  font-size: large;
   border-radius: 20px;
   padding: 5%;
   text-align: center;
@@ -208,7 +211,7 @@ footer {
   padding: 20px;
   color: fuchsia;
   text-shadow: 1px 1px 1px black;
-  font-size: small;
+  font-size: large;
 }
 
 footer:hover {
@@ -218,7 +221,8 @@ footer:hover {
 
 .info {
   margin-right: 45%;
-  padding: 20px;
+  padding: 30px;
+  padding-top: 50px;
   margin-left: 50px;
   text-shadow: 1px 1px 1px blue;
 }
@@ -233,7 +237,7 @@ footer:hover {
 }
 
 .logos {
-  width: 30px;
+  width: 50px;
   border-radius: 50%;
   margin: 10px;
   border: solid 2px fuchsia;
@@ -249,7 +253,6 @@ footer:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: fuchsia 4px solid;
   transform: rotate(-90deg);
   position: fixed;
   bottom: 110px;
@@ -258,9 +261,10 @@ footer:hover {
 
 .boton-volver img:hover{
   box-shadow: 1px 1px 28px fuchsia;
+  border: fuchsia 4px solid;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 700px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   
   section {
     display: block;
@@ -275,16 +279,20 @@ footer:hover {
   .title {
     display: block;
     padding: 0px;
-    margin: auto 15px;
+    margin: auto 20%;
 
   }
 
   .logo {
+    width: 320px ;
+    height: 160px ;
     margin: auto 0;
   }
 
   .pin {
-    margin: auto 90px;
+        width: 200px;
+          height: 200px;
+    margin: auto 50px;
   }
 
   .nav-bar ul {
@@ -333,7 +341,7 @@ footer:hover {
   }
 
   footer{
-    font-size: x-small;
+    font-size: large;
     justify-content: center;
   }
 
