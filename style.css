@@ -128,12 +128,13 @@ li a:hover {
 
 .banner {
   justify-content: center;
-  width: 300px;
+  width: 200px;
+  height: 320px;
   border-radius: 20px;
   border: solid 8px white;
   box-shadow: 1px 1px 20px cyan;
-  margin: auto 50%;
-  margin-top: 15%;
+  margin: auto 75%;
+  margin-top: 50%;
 }
 
 .sinopsis h2 {
