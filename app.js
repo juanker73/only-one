@@ -1,5 +1,5 @@
-let apodo = prompt("¡Bienvenido, ingresa tu apodo!");
-alert(`JAJAJAJA, ${apodo}!!!! Que ridículo, OK da ENTER!`);
+let apodo = prompt("¡Bienvenido a mi pagina humano... Ingresa tu apodo!");
+alert(`JAJAJAJA, ${apodo}!!!! Que ridículo... está bien, da ENTER!`);
 
 // Llamada a la API Rick y Morty mediante fetch
 
