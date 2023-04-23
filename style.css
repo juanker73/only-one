@@ -34,7 +34,7 @@ header {
 @keyframes random {
 
   0% {
-    background-color: rgba(43, 0, 43, 0.658);
+    background-color: rgba(43, 0, 43, 0.657);
   }
 
   25% {
@@ -50,7 +50,7 @@ header {
   }
 
   100% {
-    background-color: rgba(43, 0, 43, 0.658);
+    background-color: rgba(43, 0, 43, 0.657);
   }
 
 }
@@ -110,7 +110,7 @@ li a {
   border: solid 2px fuchsia;
   padding: 5px;
   background-color: rgb(0, 255, 255);
-  text-shadow: black 1px 1px 1px;
+  text-shadow: black 1px 1px 2px;
   font-size: x-large;
 }
 
@@ -264,7 +264,7 @@ h2 {
   height: 160px;
   margin: 0px;
   border-radius: 20px;
-  border: solid 1px fuchsia;
+  border: solid 2px fuchsia;
 }
 
 .hbo:hover {
