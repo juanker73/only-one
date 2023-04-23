@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background-color: rgba(43, 0, 43, 0.658);
+
   margin-bottom: 10%;
   color: aqua;
   padding-bottom: 5px;
@@ -26,10 +26,38 @@ header {
   display: block;
   flex-direction: row;
   flex-wrap: wrap;
+  border-bottom: solid fuchsia 1px;
+  -webkit-animation: random 20s infinite;
+  animation: random 20s infinite;
 }
 
+@keyframes random {
+
+  0% {
+    background-color: rgba(43, 0, 43, 0.658);
+  }
+
+  25% {
+    background-color: rgba(237, 13, 237, 0.372);
+  }
+
+  50% {
+    background-color: rgba(43, 0, 43, 0.658);
+  }
+
+  75% {
+    background-color: rgba(237, 13, 237, 0.372);
+  }
+
+  100% {
+    background-color: rgba(43, 0, 43, 0.658);
+  }
+
+}
+
+
 header:hover {
-  box-shadow: fuchsia 1px 1px 160px;
+  box-shadow: fuchsia 1px 1px 60px;
   border-bottom: solid fuchsia 1px;
 }
 
@@ -75,26 +103,26 @@ header:hover {
 }
 
 li a {
-  color: cyan;
+  color: fuchsia;
   text-decoration: none;
   text-transform: lowercase;
   border-radius: 10px;
   border: solid 2px fuchsia;
   padding: 5px;
-  background-color: rgba(0, 255, 255, 0.491);
-  text-shadow: black 1px 1px 12px;
+  background-color: rgb(0, 255, 255);
+  text-shadow: black 1px 1px 1px;
   font-size: x-large;
 }
 
 li a:hover {
   background-color: cyan;
-  color: fuchsia;
+  color: rgb(245, 95, 245);
   text-decoration: none;
   box-shadow: 1px 1px 30px cyan;
   border-radius: 10px;
   border: solid 4px lightblue;
   padding: 5px;
-  text-shadow: black 1px 1px 12px;
+  text-shadow: black 1px 2px 5px;
 }
 
 .sinopsis {
@@ -122,7 +150,7 @@ li a:hover {
   border: solid fuchsia 1px;
 }
 
-.texto{
+.texto {
   text-align: center;
   width: 50%;
 }
@@ -141,7 +169,7 @@ li a:hover {
 .sinopsis h2 {
   text-align: center;
   margin: auto 0%;
-  padding:30px;
+  padding: 30px;
   color: cyan;
   text-shadow: 1px 1px 1px black;
 }
@@ -164,7 +192,7 @@ h2 {
   margin-right: 0px;
   padding: 0%;
   margin-bottom: 10%;
-  
+
 }
 
 .grid-item {
@@ -197,7 +225,8 @@ h2 {
   width: 190px;
   height: 190px;
   box-shadow: 1px 1px 20px white;
-  border-radius: 15px;border: 2px solid rgba(0, 255, 255, 0.644);
+  border-radius: 15px;
+  border: 2px solid rgba(0, 255, 255, 0.644);
   padding-top: 0px;
   margin: auto 5px;
   margin-top: 10px;
@@ -215,18 +244,19 @@ h2 {
   color: cyan;
   text-shadow: black 1px 1px 3px;
   background-color: rgba(0, 255, 255, 0.201);
+  border: 1px solid cyan;
 }
 
 .boton-serie {
- 
+
   margin-bottom: 30px;
 }
 
 
 
 .suscribeme:hover {
-  box-shadow: 1px 1px 120px white;
-  border: 1px solid white;
+  box-shadow: 1px 1px 120px cyan;
+  border: 1px solid rgb(168, 248, 248);
 }
 
 .hbo {
@@ -243,7 +273,7 @@ h2 {
 }
 
 footer {
-  background-color: rgba(43, 0, 43, 0.658);
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -252,11 +282,38 @@ footer {
   text-shadow: 1px 1px 1px black;
   font-size: large;
   margin-top: 30%;
+  border-top: solid fuchsia 1px;
+  -webkit-animation: random 20s infinite;
+  animation: random 20s infinite;
+}
+
+@keyframes random {
+
+  0% {
+    background-color: rgba(43, 0, 43, 0.658);
+  }
+
+  25% {
+    background-color: rgba(237, 13, 237, 0.372);
+  }
+
+  50% {
+    background-color: rgba(43, 0, 43, 0.658);
+  }
+
+  75% {
+    background-color: rgba(237, 13, 237, 0.372);
+  }
+
+  100% {
+    background-color: rgba(43, 0, 43, 0.658);
+  }
+
 }
 
 footer:hover {
-  box-shadow: 1px 1px 160px fuchsia;
-  border-top: solid fuchsia 1px;
+  box-shadow: 1px 1px 60px fuchsia;
+  
 }
 
 .info {
@@ -382,12 +439,12 @@ footer:hover {
   .info {
     justify-content: center;
     text-align: center;
-    margin: auto ;
+    margin: auto;
     padding: 0px;
   }
 
   .contacts {
-    margin: auto ;
+    margin: auto;
     justify-content: center;
     text-align: center;
   }
