@@ -116,7 +116,7 @@ li a {
 
 li a:hover {
   background-color: cyan;
-  color: rgb(245, 95, 245);
+  color: rgb(13, 2, 225);
   text-decoration: none;
   box-shadow: 1px 1px 30px cyan;
   border-radius: 10px;
