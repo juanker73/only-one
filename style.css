@@ -336,12 +336,12 @@ footer:hover {
   width: 50px;
   border-radius: 50%;
   margin: 10px;
-  border: solid 2px fuchsia;
+  
   box-shadow: fuchsia 1px 1px 25px;
 }
 
 .logos:hover {
-  border: solid 2px white;
+  
   box-shadow: white 1px 1px 25px;
 }
 
