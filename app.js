@@ -2,7 +2,7 @@
 // Llamada a la API Rick y Morty mediante fetch
 
 const API_BASE = "https://rickandmortyapi.com/api";
-const API_CHARACTERS = "https://rickandmortyapi.com/api/character/?page=12";
+const API_CHARACTERS = "https://rickandmortyapi.com/api/character/?page=10";
 
 const llamadaApi = fetch(API_CHARACTERS);
 
